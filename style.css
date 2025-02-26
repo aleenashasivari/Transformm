@@ -1,0 +1,25 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    /*transform: translate(40em, 20em);*/
+    /* transform: rotate(232deg); */
+    /* transform: scale(2); */
+    /* transform: skew(20deg); */
+    /* transform: matrix(1,2,-1,1,80,80); */
+}
+
+.rotateX {
+    transform: rotateX(150deg);
+    background-color: pink;
+}
+
+.rotateZ {
+    transform: rotateZ(90deg);
+    background-color: blue;
+}
+
+.rotateY {
+    transform: rotateY(150deg);
+    background-color: blueviolet;
+}
